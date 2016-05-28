@@ -1,12 +1,12 @@
 opcao = 0
 while opcao != 6:
-print('*** Menu ***')
-print('[1] Cadastrar Fornecedores')
-print('[2] Cadastrar Funcionários')
-print('[3] Cadastrar Automóvel')
-print('[4] Despesas com Automóvel')
-print('[5] Entrega de Cana')
-print('[6] Sair')
+    print('*** Menu ***')
+    print('[1] Cadastrar Fornecedores')
+    print('[2] Cadastrar Funcionários')
+    print('[3] Cadastrar Automóvel')
+    print('[4] Despesas com Automóvel')
+    print('[5] Entrega de Cana')
+    print('[6] Sair')
     opcao= int(input('OPÇÃO: '))
     if (opcao == 1):
         print('Cadastrar Fornecedores')
