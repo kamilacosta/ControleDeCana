@@ -1,4 +1,15 @@
 opcao = 0
+nomesFornecedores = []
+nomesFuncionarios = []
+nomesAutomoveis = []
+placasAutomoveis = []
+endereco = []
+telefone = []
+CNH = []
+CPF = []
+valorAbastecido = []
+gastosManutencao = []
+totalEntregue = []
 while opcao != 6:
     print('*** Menu ***')
     print('[1] Cadastrar Fornecedores')
@@ -9,7 +20,14 @@ while opcao != 6:
     print('[6] Sair')
     opcao= int(input('OPÇÃO: '))
     if (opcao == 1):
-        print('Cadastrar Fornecedores')
+        print('***Cadastrar Fornecedores***')
+        entrada = 's'
+        while entrada == 's':
+            nomesFornecedores.append(input("Digite o nome do fornecedor: "))
+            CPF.append(int(input("Digite o CPF: ")))
+            endereco.append(input("Digite o endereço: "))
+            telefone.append(int(input("Digite o telefone: ")))
+            entrada = input("Continuar? [s/n]: ")
     elif (opcao == 2):
         print('Cadastrar Funcionários')
     elif (opcao == 3):
