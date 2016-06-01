@@ -37,6 +37,10 @@ while opcao != 6:
     elif (opcao == 5):
         print('Entrega de Cana')
     elif (opcao == 6):
-        print('Sair')
+            print('Sair')
+            exit()
     else:
         print('Opção Inválida')
+        entrada = input("Continuar? [s/n]:")
+        if entrada == 'n':
+            exit()
