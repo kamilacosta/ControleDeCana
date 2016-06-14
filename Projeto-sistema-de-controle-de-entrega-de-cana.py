@@ -67,8 +67,3 @@ while opcao != 6:
         entrada = input('Continuar? [s/n]:')
         if entrada == 'n':
             exit()
-
-#arquivo = open("fornecedores.txt", "a")
-#for fornecedores in nomesFornecedores:
-#    arquivo.write(%s;%s;%s\n % (fornecedor[0],fornecedor[1],fornecedor[2]))
-#arquivo.close
