@@ -11,8 +11,7 @@ while opcao != 6:
     print('[3] Cadastrar Automóvel')
     print('[4] Despesas com Automóvel')
     print('[5] Entrega de Cana')
-    print('[6] Imprimir listas')
-    print('[7] Sair')
+    print('[6] Sair')
     opcao= int(input('OPÇÃO: '))
     if (opcao == 1):
         print('*** Cadastrar Fornecedores***')
@@ -58,8 +57,6 @@ while opcao != 6:
             totalEntregue.append([canaEntregue])
             entrada = input('Continuar? [s/n]:')
     elif (opcao == 6):
-        print(fornecedores, funcionarios, automoveis, gastos, totalEntregue)
-    elif (opcao == 7):
         print('Sair')
         exit()
     else:
